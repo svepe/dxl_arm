@@ -1,0 +1,9 @@
+build/
+bin/
+lib/
+
+include/v_rep*.h
+include/extApi*.h
+src/v_rep*.cpp
+
+build.sh
