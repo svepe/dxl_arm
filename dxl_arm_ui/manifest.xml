@@ -1,0 +1,18 @@
+<package>
+  <description brief="dxl_arm_ui">
+
+     dxl_arm_ui
+
+  </description>
+  <author>Svetlin</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/dxl_arm_ui</url>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="sensor_msgs"/>
+  <depend package="opencv2"/>
+
+</package>
+
+

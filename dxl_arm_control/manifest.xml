@@ -1,0 +1,17 @@
+<package>
+  <description brief="dxl_arm_control">
+
+     dxl_arm_control
+
+  </description>
+  <author>Svetlin</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/dxl_arm_control</url>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="sensor_msgs"/>
+
+</package>
+
+
