@@ -137,9 +137,10 @@ VREP_DLLEXPORT void* v_repMessage(int message,int* auxiliaryData,void* customDat
 		{
 			simGetJointPosition(joint_handles[i], &msg.data[i]);
 			msg.data[i] *= RAD_TO_DEG;
+			msg.data[i] += 150;
 			std::cout << msg.data[i] << std::endl;
 		}
-		msg.data[JOINT_COUNT] = 0; // Grasp -> center position
+		msg.data[JOINT_COUNT] = 150; // Grasp -> center position
 
 		pub.publish(msg);
 	}
